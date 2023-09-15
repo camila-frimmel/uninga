@@ -12,12 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileUninga"
         tools:targetApi="31">
+        <activity android:name=".Alterar"
+            android:exported="true" />
         <activity
             android:name=".ListActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".FormActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
