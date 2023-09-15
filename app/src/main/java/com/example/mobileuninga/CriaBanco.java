@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 public class CriaBanco extends SQLiteOpenHelper {
     private static final String NOME_BANCO = "banco.db";
-    static final String TABELA = "pessoa";
+    static final String TABELA = "Pessoa";
     static final String ID = "_id";
     static final String NOME = "nome";
     static final String CPF = "CPF";
